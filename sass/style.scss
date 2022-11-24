@@ -79,17 +79,22 @@ body{
            font-size: 36px;
            color: #84818a;
        }
-       h2{
-        font-weight: 800;
-            font-family: 'Inter', sans-serif;
-            font-size: 24px;
-       }
+       
        .card__text--parragraf{
         font-family: 'Inter', sans-serif;
         color: #84818a;
        }
     }
-
+    h2 a{
+          text-decoration: none;
+          color: #00001a;
+          font-weight: 800;
+          font-family: 'Inter', sans-serif;
+          font-size: 24px;
+          &:hover{
+            color: #d75b54;
+          }
+       }
 }
 
 @media(max-width:1024px){
